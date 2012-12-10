@@ -67,3 +67,11 @@ use it as runtime requirement.
 %{_mavendepmapfragdir}/%{name}
 %{_mavenpomdir}/JPP.%{name}.pom
 
+
+
+%changelog
+* Sun Nov 27 2011 Guilherme Moro <guilherme@mandriva.com> 4.1.1-5
++ Revision: 733978
+- rebuild
+- imported package httpcomponents-project
+
