@@ -38,7 +38,7 @@ use it as runtime requirement.
 %pom_remove_plugin :animal-sniffer-maven-plugin
 
 # Fix Jar name
-%mvn_file :%{mname} %{bname}/%{mname}
+%mvn_file :%{module} %{bname}/%{module}
 
 %build
 %mvn_build
