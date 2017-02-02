@@ -33,6 +33,7 @@ use it as runtime requirement.
 %setup -q
 
 # remove unpackaged plugins
+%pom_remove_plugin :buildnumber-maven-plugin
 %pom_remove_plugin :maven-clover2-plugin
 %pom_remove_plugin :maven-notice-plugin
 %pom_remove_plugin :animal-sniffer-maven-plugin
