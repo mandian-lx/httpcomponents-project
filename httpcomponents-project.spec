@@ -1,5 +1,3 @@
-%{?_javapackages_macros:%_javapackages_macros}
-
 %define bname httpcomponents
 %define module project
 
