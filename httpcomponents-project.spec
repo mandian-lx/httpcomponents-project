@@ -15,9 +15,10 @@ URL:		https://hc.apache.org/
 Source:		%{name}-%{version}.tar.xz
 BuildArch:	 noarch
 
-BuildRequires:	java-headless
-BuildRequires:	jpackage-utils
 BuildRequires:	maven-local
+BuildRequires:  mvn(org.apache:apache:pom:)
+BuildRequires:  mvn(org.apache.rat:apache-rat-plugin)
+BuildRequires:  mvn(org.apache.maven.plugins:maven-site-plugin)
 
 %description
 Common Maven POM file for HttpComponents. This project should be
